@@ -49,3 +49,11 @@ function validarFormulario(event) {
 
 // Agregar el evento de validación al formulario
 form.addEventListener("submit", validarFormulario);
+
+
+const menuToggle = document.querySelector('.menu__toggle');
+const menuNav = document.querySelector('nav');
+
+menuToggle.addEventListener('click', function() {
+    menuNav.classList.toggle('active');
+});
