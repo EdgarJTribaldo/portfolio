@@ -19,9 +19,11 @@ body {
   padding: 0;
   line-height: 1;
 }
-ol,
-ul,
-li {
+
+p {
+  text-justify: inter-word;
+}
+nav {
   list-style: none;
 }
 a {
@@ -326,10 +328,10 @@ section.academic {
 
 .academic__courses {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 16px;
+  gap: 30px;
 }
 
 .academic__courses__box {
@@ -604,6 +606,35 @@ Utiliza las referencias de los breakpoints @media abajo */
   /*Menu*/
 
   /*Titulo*/
+  h2.title__bio {
+    font-size: 30px;
+    line-height: 30px;
+    padding: 30px 20px;
+  }
+
+  .title__subsection {
+    margin: 0 auto;
+  }
+
+  .title__network {
+    margin: 0 auto;
+  }
+
+  section.about {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .about__container {
+    width: 100%;
+  }
+
+  .img_personal {
+    margin: 0 auto;
+  }
+
   nav {
     display: none;
   }
@@ -643,6 +674,93 @@ Utiliza las referencias de los breakpoints @media abajo */
       display: block;
       margin-bottom: 10px;
     }
+  }
+
+  .experiencie__box {
+    display: flex;
+    flex-direction: column;
+  }
+  .experience__img {
+    width: 100%;
+    height: auto;
+  }
+
+  .experience__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    height: 200px;
+  }
+
+  section.formcontato {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .formcontato__contacto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formcontato__text {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .formcontato__img {
+    width: 100%;
+    height: auto;
+  }
+  .formcontato__input {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .text_contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .formcontato__form {
+    width: 100%;
+  }
+
+  .formcontato__textarea {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  button.formcontato__botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .formcontato__title {
+    padding: 20px;
+  }
+
+  .formcontato__subtext {
+    padding: 20px;
+    margin: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .agencias {
+    padding: 20px;
   }
   /*Sección sobre mi*/
 
